@@ -7,6 +7,7 @@ class Solution:
         result = 0
 
         while k > 0:
+            result = 0
             for digit in newString:
                 result += int(digit)
             newString = str(result)
