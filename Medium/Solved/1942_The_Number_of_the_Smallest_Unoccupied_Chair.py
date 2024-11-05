@@ -8,7 +8,7 @@ class Solution:
         leavingList = sorted(times, key=lambda x: x[1])
 
         prenotation = {}
-
+        
         occupiedChair = 0 
         freeChair = []
       
