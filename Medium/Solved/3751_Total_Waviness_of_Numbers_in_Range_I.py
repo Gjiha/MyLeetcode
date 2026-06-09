@@ -10,8 +10,6 @@ class Solution:
                     elif int(number[i-1]) < int(digit) > int(number[i+1]):
                         result += 1
         return result
-    
-  
 
                 
             
